@@ -3,3 +3,28 @@
     width: 100%;
     height: 90vh;
 }
+
+.website-mode {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 120px;
+    height: 30px;
+    background-color: var(--bgcolor);
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    border-radius: 15px;
+}
+
+.website-mode-switch {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 55px;
+    height: 20px;
+    border-radius: 10px;
+    border: none;
+    color: var(--bgcolor);
+    background-color: var(--primary);
+    font-weight: 700;
+    transition: 0.5s;
+}

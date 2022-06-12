@@ -35,7 +35,7 @@ const Portfolio = () => {
             <h1><span className='code-font-h'>&lt;h1&gt;</span>My projects<span className='code-font-h'>&lt;/h1&gt;</span></h1>
             {projects.map(project => {
                 return (
-                    <div className='project'>
+                    <div key={project.name} className='project'>
                         <h3>{project.name}</h3>
                         <p>{project.description}</p>
                         <div>
