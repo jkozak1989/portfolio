@@ -14,8 +14,8 @@ const Navbar = () => {
                 <NavLink to="contact" className='nav-item'><i className="bi bi-envelope-fill"></i> Contact</NavLink>
             </nav>
             <div className='navbar-icons'>
-                <div><i className="bi bi-github"></i></div>
-                <div><i className="bi bi-linkedin"></i></div>
+                <a href='https://github.com/jkozak1989'><i className="bi bi-github"></i></a>
+                <a href='https://www.linkedin.com/in/jaroslaw-kozak-0156a11a3/'><i className="bi bi-linkedin"></i></a>
             </div>
         </div>
     );

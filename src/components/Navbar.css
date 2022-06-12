@@ -38,8 +38,13 @@
     font-size: 20px;
 }
 
-.navbar-icons i {
+.navbar-icons a {
     margin-left: 10px;
+    color: var(--primary);
+}
+
+.navbar-icons a:hover {
+    color: var(--secondary);
 }
 
 .navbar-logo {
