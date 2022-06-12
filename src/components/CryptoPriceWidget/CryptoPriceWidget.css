@@ -1,0 +1,21 @@
+.crypto-widget {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    border: 2px solid var(--secondary);
+    padding: 0 20px 20px 20px;
+}
+
+.crypto-widget p span {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.crypto-widget-select {
+    width: 50%;
+    border: 1px solid var(--secondary);
+    background-color: var(--bgcolor);
+    color: var(--secondary);
+    outline: none;
+    margin-top: 20px;
+}

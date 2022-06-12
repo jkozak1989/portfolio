@@ -1,0 +1,26 @@
+.about {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 90vh;
+    column-gap: 5vw;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.about-left {
+    text-align: justify;
+}
+
+.about-right {
+    padding-top: 2vh;
+}
+
+.about-right div{
+    max-height: 60vh;
+}
+
+.about-right img{
+    width:100%;
+    border-radius: 50%;
+}

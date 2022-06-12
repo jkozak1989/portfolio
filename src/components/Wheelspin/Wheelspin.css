@@ -1,0 +1,250 @@
+.wheelspin {
+    position: absolute;
+    margin: 0 auto;
+}
+
+.wheelspin h1 {
+    position: absolute;
+    left:160px;
+}
+
+.wheelspin-wheel {
+    top: 100px;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.wheelspin-option-1 {
+    position: absolute;
+    left: 300px;
+    width: 0;
+    height: 0;
+    border-top: 300px solid var(--primary);
+    border-right: 300px solid transparent;
+    rotate: 90;
+}
+
+.wheelspin-option-2 {
+    position: absolute;
+    left: 300px;
+    width: 0;
+    height: 0;
+    border-bottom: 300px solid var(--secondary);
+    border-left: 300px solid transparent;
+}
+
+.wheelspin-option-3 {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    width: 0;
+    height: 0;
+    border-top: 300px solid var(--primary);
+    border-left: 300px solid transparent;
+}
+
+.wheelspin-option-4 {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    width: 0;
+    height: 0;
+    border-bottom: 300px solid var(--secondary);
+    border-right: 300px solid transparent;
+}
+
+.wheelspin-option-5 {
+    position: absolute;
+    top: 300px;
+    width: 0;
+    height: 0;
+    border-bottom: 300px solid var(--primary);
+    border-left: 300px solid transparent;
+}
+
+.wheelspin-option-6 {
+    position: absolute;
+    top: 300px;
+    width: 0;
+    height: 0;
+    border-top: 300px solid var(--secondary);
+    border-right: 300px solid transparent;
+}
+
+.wheelspin-option-7 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 300px solid var(--primary);
+    border-right: 300px solid transparent;
+}
+
+.wheelspin-option-8 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 300px solid var(--secondary);
+    border-left: 300px solid transparent;
+}
+
+.wheelspin-win-1 {
+    position: absolute;
+    left: 270px;
+    top: 140px;
+    color: var(--bgcolor);
+    transform: rotate(-67.5deg);
+}
+
+.wheelspin-win-2 {
+    position: absolute;
+    left: 360px;
+    top: 230px;
+    color: var(--bgcolor);
+    transform: rotate(-22.5deg);
+}
+
+.wheelspin-win-3 {
+    position: absolute;
+    left: 360px;
+    top: 350px;
+    color: var(--bgcolor);
+    transform: rotate(22.5deg);
+}
+
+.wheelspin-win-4 {
+    position: absolute;
+    left: 270px;
+    top: 440px;
+    color: var(--bgcolor);
+    transform: rotate(67.5deg);
+}
+
+.wheelspin-win-5 {
+    position: absolute;
+    left: 160px;
+    top: 430px;
+    color: var(--bgcolor);
+    transform: rotate(112.5deg);
+}
+
+.wheelspin-win-6 {
+    position: absolute;
+    left: 60px;
+    top: 350px;
+    color: var(--bgcolor);
+    transform: rotate(157.5deg);
+}
+
+.wheelspin-win-7 {
+    position: absolute;
+    left: 60px;
+    top: 230px;
+    color: var(--bgcolor);
+    transform: rotate(202.5deg);
+}
+
+.wheelspin-win-8 {
+    position: absolute;
+    left: 125px;
+    top: 130px;
+    color: var(--bgcolor);
+    transform: rotate(-112.5deg);
+}
+
+.wheelspin-bar-1 {
+    position: absolute;
+    top: 299px;
+    width: 600px;
+    height: 2px;
+    background-color: var(--bgcolor);
+}
+
+.wheelspin-bar-2 {
+    position: absolute;
+    top: 299px;
+    width: 600px;
+    height: 2px;
+    background-color: var(--bgcolor);
+    transform:rotate(45deg);
+}
+
+.wheelspin-bar-3 {
+    position: absolute;
+    top: 299px;
+    width: 600px;
+    height: 2px;
+    background-color: var(--bgcolor);
+    transform:rotate(90deg);
+}
+
+.wheelspin-bar-4 {
+    position: absolute;
+    top: 299px;
+    width: 600px;
+    height: 2px;
+    background-color: var(--bgcolor);
+    transform:rotate(135deg);
+}
+
+.wheelspin-button {
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    width: 100px;
+    height: 100px;
+    background-color: var(--bgcolor);
+    border-radius: 50%;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.wheelspin-button:hover {
+    background-color: var(--primary);
+}
+
+.wheelspin-pointer {
+    position: absolute;
+    left: 280px;
+    top: 100px;
+    width: 0;
+    height: 0;
+    border-top: 50px solid red;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+.wheelspin-win-banner {
+    position: absolute;
+    width: 300px;
+    left: 25px;
+    top: 720px;
+    opacity: 0;
+    transition: 1s all;
+    text-align: center;
+}
+
+.wheelspin-reset {
+    position: absolute;
+    left: 375px;
+    top: 720px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary);
+    color: var(--bgcolor);
+    transition: 1s all;
+    opacity: 0;
+}
+
+.wheelspin-reset:hover {
+    background-color: var(--primary);
+}

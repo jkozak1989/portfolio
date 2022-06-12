@@ -1,0 +1,28 @@
+.memory-game {
+    margin: 0 auto;
+    width: 640px;
+    text-align: center;
+}
+
+.memory-board {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.memory-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.memory-button {
+    color: var(--bgcolor);
+    background-color: var(--secondary);
+    width: 120px;
+}
+
+.memory-button:hover {
+    background-color: var(--primary);
+}
