@@ -9,6 +9,7 @@ import PixelArtMaker from './components/PixelArtMaker/PixelArtMaker';
 import Wheelspin from './components/Wheelspin/Wheelspin';
 import MemoryGame from './components/MemoryGame/MemoryGame';
 import CryptoPriceWidget from './components/CryptoPriceWidget/CryptoPriceWidget';
+import ErrorPage from './components/ErrorPage';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="portfolio/wheelspin" element={<Wheelspin />} />
           <Route path="portfolio/memory_game" element={<MemoryGame />} />
           <Route path="portfolio/crypto_price_widget" element={<CryptoPriceWidget />} />
+          <Route path="*" element={<ErrorPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
