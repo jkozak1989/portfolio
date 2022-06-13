@@ -18,6 +18,7 @@
     height: 50px;
     background-color: var(--primary);
     transition: all 0.5s;
+    border-radius: none;
 }
 
 .pixelart-colorpicker:hover {

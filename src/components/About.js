@@ -5,6 +5,13 @@ import './About.css';
 const About = () => {
     return (
         <div className='about'>
+            <div className='about-right'>
+                <div>
+                    <span className='code-font-h'>&lt;img&gt;</span>
+                    <img src="images/img_me.png" alt='portrait'/>
+                    <span className='code-font-h'>&lt;/img&gt;</span>
+                </div>
+            </div>
             <div className='about-left'>
                 <h1><span className='code-font-h'>&lt;h1&gt;</span>About me<span className='code-font-h'>&lt;/h1&gt;</span></h1>
                 <span className='code-font-p'>&lt;p&gt;</span>
@@ -16,13 +23,6 @@ const About = () => {
                 <span className='code-font-p'>&lt;p&gt;</span>
                 <p>I am looking for opportunities to work as a Junior Developer. I am open to learning new technologies, new programming languages. Please use a contact form to get  in touch with me.</p>
                 <span className='code-font-p'>&lt;/p&gt;</span>
-            </div>
-            <div className='about-right'>
-                <div>
-                    <span className='code-font-h'>&lt;img&gt;</span>
-                    <img src="images/img_me.png" />
-                    <span className='code-font-h'>&lt;/img&gt;</span>
-                </div>
             </div>
         </div>
     );

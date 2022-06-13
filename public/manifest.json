@@ -1,7 +1,12 @@
 {
   "short_name": "JK codes",
-  "name": "JK codes Portfolio",
+  "name": "JK codes is a portfolio website created by Jaroslaw Kozak",
   "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/svg"
+    },
     {
       "src": "logo.svg",
       "type": "image/svg",
@@ -13,6 +18,9 @@
       "sizes": "512x512"
     }
   ],
+  "homepage": "./",
   "start_url": ".",
-  "display": "standalone"
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
 }

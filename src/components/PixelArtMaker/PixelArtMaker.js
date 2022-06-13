@@ -56,11 +56,7 @@ const PixelArtMaker = () => {
             return [...pixelArray];
         })
     }
-
-    function handleDownload() {
-
-    }
-
+    
     return (
         <div className='pixelartmaker'>
             <h1><span className='code-font-h'>&lt;h1&gt;</span>Pixel Art Maker<span className='code-font-h'>&lt;/h1&gt;</span></h1>

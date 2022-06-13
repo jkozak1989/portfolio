@@ -1,20 +1,20 @@
 .contact {
     margin: 0 auto;
-    display: grid;
-    width: 100%;
+    display: block;
+    width: 70%;
     max-width: 1200px;
     justify-content: center;
     text-align: center;
 }
 
 .contact-form {
-    display: grid;
+    display: block;
 }
 
 .contact-form-input {
     box-sizing: border-box;
     margin-top: 20px;
-    width: 50vw;
+    width: 100%;
     max-width: 600px;
     height: 50px;
     border: 2px solid var(--primary);
@@ -28,7 +28,7 @@
 .contact-form-textarea {
     box-sizing: border-box;
     margin-top: 20px;
-    width: 50vw;
+    width: 100%;
     max-width: 600px;
     height: 100px;
     border: 2px solid var(--primary);
@@ -42,7 +42,7 @@
 .contact-form-submit {
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 50vw;
+    width: 100%;
     max-width: 600px;
     height: 40px;
     color: var(--bgcolor);
@@ -56,4 +56,10 @@
     color: var(--bgcolor);
     background-color: var(--secondary);
     border-color: var(--secondary);
+}
+
+@media only screen and (max-width: 700px) {
+    .contact {
+        width: 90%;
+    }
 }

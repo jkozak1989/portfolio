@@ -22,10 +22,10 @@ const Navbar = () => {
                 </Link>
             </div>
             <nav>
-                <NavLink to="/" className='nav-item'><i className="bi bi-house-door-fill"></i> Home</NavLink>
-                <NavLink to="about" className='nav-item'><i className="bi bi-person-fill"></i> About</NavLink>
-                <NavLink to="portfolio" className='nav-item'><i className="bi bi-briefcase-fill"></i> Portfolio</NavLink>
-                <NavLink to="contact" className='nav-item'><i className="bi bi-envelope-fill"></i> Contact</NavLink>
+                <NavLink to="/" className='nav-item nav-home'><i className="bi bi-house-door-fill"></i></NavLink>
+                <NavLink to="about" className='nav-item nav-about'><i className="bi bi-person-fill"></i></NavLink>
+                <NavLink to="portfolio" className='nav-item nav-portfolio'><i className="bi bi-briefcase-fill"></i></NavLink>
+                <NavLink to="contact" className='nav-item nav-contact'><i className="bi bi-envelope-fill"></i></NavLink>
             </nav>
             <div className='navbar-icons'>
                 <a href='https://github.com/jkozak1989'><i className="bi bi-github"></i></a>

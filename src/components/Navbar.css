@@ -15,6 +15,7 @@
     color: var(--primary);
     text-decoration: none;
     font-weight: 700;
+    font-size: 20px;
 }
 
 .nav-item-active {
@@ -54,6 +55,7 @@
 
 .navbar-logo a{
     fill: var(--primary);
+    text-decoration: none;
 }
 
 .navbar-logo a:hover{
@@ -62,4 +64,28 @@
 
 .active {
     color: var(--secondary);
+}
+
+@media only screen and (min-width: 700px) {
+
+    .nav-item {
+        font-size: 16px;
+    }
+
+    .nav-home::after {
+        content: ' Home';
+    }
+
+    .nav-about::after {
+        content: ' About';
+    }
+
+    .nav-portfolio::after {
+        content: ' Portfolio';
+    }
+
+    .nav-contact::after {
+        content: ' Contact';
+    }
+
 }
