@@ -5,14 +5,14 @@ import './About.css';
 const About = () => {
     return (
         <div className='about'>
-            <div className='about-right'>
+            <div className='about-left'>
                 <div>
                     <span className='code-font-h'>&lt;img&gt;</span>
                     <img src="images/img_me.png" alt='portrait'/>
                     <span className='code-font-h'>&lt;/img&gt;</span>
                 </div>
             </div>
-            <div className='about-left'>
+            <div className='about-right'>
                 <h1><span className='code-font-h'>&lt;h1&gt;</span>About me<span className='code-font-h'>&lt;/h1&gt;</span></h1>
                 <span className='code-font-p'>&lt;p&gt;</span>
                 <p>I can confidently say, that coding is my passion and brings me a lot of joy. There are no problems I can't overcome and use as a great opportunity to learn. I'm looking for work, which will challenge me and I'm ready to deliver software solutions.</p>
