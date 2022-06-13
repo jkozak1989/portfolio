@@ -50,8 +50,16 @@
 .navbar-logo {
     height: 50px;
     padding-left: 20px;
+}
+
+.navbar-logo a{
     fill: var(--primary);
 }
+
+.navbar-logo a:hover{
+    fill: var(--secondary);
+}
+
 .active {
     color: var(--secondary);
 }
