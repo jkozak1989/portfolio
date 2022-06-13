@@ -8,13 +8,13 @@ const About = () => {
             <div className='about-left'>
                 <h1><span className='code-font-h'>&lt;h1&gt;</span>About me<span className='code-font-h'>&lt;/h1&gt;</span></h1>
                 <span className='code-font-p'>&lt;p&gt;</span>
-                <p>First of all, I really like coding. Even when I'm stuck, I always find a way to solve my coding problems. I'm looking for work, which will allow me to continue learning and delivering software solutions.</p>
+                <p>I can confidently say, that coding is my passion and brings me a lot of joy. There are no problems I can't overcome and use as a great opportunity to learn. I'm looking for work, which will challenge me and I'm ready to deliver software solutions.</p>
                 <span className='code-font-p'>&lt;/p&gt;</span><br />
                 <span className='code-font-p'>&lt;p&gt;</span>
-                <p>This summer I will be a graduate of Liverpool Hope University with a bachelor's degree in Computer Science. I can code websites using HTML, CSS, Javascript, and React frameowork. I can also code in Python and I am familiar with many Python libraries, such as Requests, BeautifulSoup, Selenium, PyTorch.</p>
+                <p>I am a graduate of Liverpool Hope University with a bachelor's degree in Computer Science. I can code websites using HTML, CSS, Javascript, and React framework. I can also code in Python and I am familiar with many Python libraries, such as Requests, BeautifulSoup, Selenium, PyTorch.</p>
                 <span className='code-font-p'>&lt;/p&gt;</span><br />
                 <span className='code-font-p'>&lt;p&gt;</span>
-                <p>I am looking for opportunities to work as a Junior Developer. I am open to learning new technologies, new programming languages. If you want to get in touch, please use a contact form.</p>
+                <p>I am looking for opportunities to work as a Junior Developer. I am open to learning new technologies, new programming languages. Please use a contact form to get  in touch with me.</p>
                 <span className='code-font-p'>&lt;/p&gt;</span>
             </div>
             <div className='about-right'>

@@ -37,7 +37,7 @@
 .home-bottom div{
     display: flex;
     flex-wrap: wrap;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .home-skill {

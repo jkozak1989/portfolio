@@ -1,3 +1,4 @@
+import emailjs from '@emailjs/browser';
 import React, { useState } from "react";
 
 import './Contact.css';
@@ -23,8 +24,14 @@ const Contact = () => {
 
     function handleSubmit(event) {
         event.preventDefault();
-        console.log(formData);
+        emailjs.send(
+            'contact_service',
+            'template_klyjxgo',
+            formData,
+            'KEJspnPJbf3PswvTl'
+        );
     }
+    
     return (
         <div className='contact'>
             <h1><span className='code-font-h'>&lt;h1&gt;</span>Contact form<span className='code-font-h'>&lt;/h1&gt;</span></h1>

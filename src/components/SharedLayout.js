@@ -17,10 +17,10 @@ const SharedLayout = () => {
         document.documentElement.style.setProperty('--code', '#ffffff');
     } else {
         switchStyle = {'transform': 'translateX(55px)'};
-        document.documentElement.style.setProperty('--bgcolor', '#E8EAE3');
-        document.documentElement.style.setProperty('--primary', '#373833');
-        document.documentElement.style.setProperty('--secondary', '#FA2742');
-        document.documentElement.style.setProperty('--code', '#000000');
+        document.documentElement.style.setProperty('--bgcolor', '#E1E1E1');
+        document.documentElement.style.setProperty('--primary', '#EB8900');
+        document.documentElement.style.setProperty('--secondary', '#000000');
+        document.documentElement.style.setProperty('--code', '#476FFF');
     }
 
     function handleChangeMode() {
