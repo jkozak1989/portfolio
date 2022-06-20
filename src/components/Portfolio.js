@@ -39,6 +39,27 @@ const Portfolio = () => {
             skills: 'Python, Machine Learning',
             link: '',
             github: 'https://github.com/jkozak1989/python/tree/main/colorblindHelper'
+        },
+        {
+            name: 'Ant Colony Optimization',
+            description: 'Implementation of Ant Colony Optimization algorithm, which solves travellisng salesman problem.',
+            skills: 'Python',
+            link: '',
+            github: 'https://github.com/jkozak1989/python/tree/main/antColonyOptimization'
+        },
+        {
+            name: 'Card Buying Bot Splinterlands',
+            description: 'Bot connects to hive blockchain to check every new block and whenever it finds a card with a correct price, it attempts to buy the card.',
+            skills: 'Python, API, Hive Blockchain',
+            link: '',
+            github: 'https://github.com/jkozak1989/python/tree/main/cardBuyingBot'
+        },
+        {
+            name: 'Dot Art Converter',
+            description: 'Script converts pixel art image into dot art by changing every pixel into a circle.',
+            skills: 'Python',
+            link: '',
+            github: 'https://github.com/jkozak1989/python/tree/main/dotArt'
         }
     ]
     return (
