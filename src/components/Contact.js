@@ -29,7 +29,17 @@ const Contact = () => {
             'template_klyjxgo',
             formData,
             'KEJspnPJbf3PswvTl'
-        );
+        ).then( response => {
+            setFormData(() => {
+                return {
+                    name: '',
+                    email: '',
+                    subject: '',
+                    message: ''
+                }
+            })
+            alert("Message sent!");
+        })
     }
     
     return (
